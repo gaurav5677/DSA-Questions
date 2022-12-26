@@ -1,6 +1,6 @@
 package Arrays;
 
-public class SpanOfArray {
+public class _1_SpanOfArray {
 
     public static void swap ( int [] arr , int i , int j ){
         int temp = arr[i];
