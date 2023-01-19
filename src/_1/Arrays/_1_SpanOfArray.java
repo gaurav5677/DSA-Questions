@@ -1,4 +1,4 @@
-package Arrays;
+package _1.Arrays;
 
 public class _1_SpanOfArray {
 
