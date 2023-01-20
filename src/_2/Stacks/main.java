@@ -10,6 +10,7 @@ public class main {
         System.out.println(st);
         st.push(30);
         st.push(40);
+
         System.out.println(st);
         System.out.println(st.peek()+ "  " + st.size());
         st.pop();// this will delete the topmost element form the stack
