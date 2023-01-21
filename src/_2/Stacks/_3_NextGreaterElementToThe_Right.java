@@ -33,10 +33,10 @@ public class _3_NextGreaterElementToThe_Right {
 
         Stack<Integer> st = new Stack<>();
 
-        st.push(0);  // only the 0th element    not array(0)
+        st.push(0);  // here i push the address of the first element , not the element  ; 
 
         for( int i = 0  ; i < arr.length ; i++){
-            while(st.size()  > 0 && arr[i] > arr[st.peek()]){ // most imp step arr[i] > arr[st.peek()]
+            while(st.size()  > 0 && arr[i] > arr[st.peek()]){ // most imp step arr[i] > arr[st.peek()]  here the peek array element is get compared with the arr [i]
                 int pos = st.peek();
                 nge[pos] = arr[i];
                 st.pop();
