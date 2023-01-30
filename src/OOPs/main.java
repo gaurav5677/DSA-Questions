@@ -27,16 +27,28 @@ public class main {
         p1.saysHi();
         p2.saysHi();
 
-        swap(p1, p2);
+         swap(p1, p2);
         p1.saysHi();
         p2.saysHi();
 
     }
 
-    public static void swap(Person psn1, Person psn2) {
+//    public static void swap(Person psn1, Person psn2) {
+//
+//        Person temp = psn1;
+//        psn1 = psn2;
+//        psn2 = temp;
+//    }
 
-        Person temp = psn1;
-        psn1 = psn2;
-        psn2 = temp;
+    public static void swap(Person psn1, Person psn2){
+         psn1 = new Person();
+        int age = psn1.age;
+        psn1.age = psn2.age;
+        psn2.age = age;
+
+        psn2 = new Person();
+        String name = psn1.name;
+        psn1.name = psn2.name;
+        psn2.name= name;
     }
 }
