@@ -1,4 +1,4 @@
-package _1.Arrays;
+package _01.Arrays;
 
 public class Into_to_Arrays {
     public static void main(String[] args) {

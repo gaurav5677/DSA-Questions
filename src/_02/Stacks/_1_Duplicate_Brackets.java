@@ -1,4 +1,4 @@
-package _2.Stacks;
+package _02.Stacks;
 
 import java.util.Scanner;
 import java.util.Stack;
