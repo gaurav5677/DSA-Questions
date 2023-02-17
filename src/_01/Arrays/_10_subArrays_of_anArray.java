@@ -27,7 +27,7 @@ public class _10_subArrays_of_anArray {
 
         for( int i =0 ; i < arr.length ; i++){
             for( int  j = i ; j < arr.length ; j++ ){
-                for( int k = i ; k <=j ; k++){
+                for( int k = i ; k <=j ; k++){   // loop for printing the elements betweet i and j
                     System.out.print(arr[k] + "\t" );
 
                 }
