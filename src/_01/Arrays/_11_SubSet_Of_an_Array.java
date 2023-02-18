@@ -44,8 +44,8 @@ public class _11_SubSet_Of_an_Array {
             String set = "";
             int temp = i ;
             for (int j = arr.length - 1; j >= 0; j--) {
-                int r = temp % 2;
-                temp = temp / 2;
+                int r = temp % 2;//  remainder
+                temp = temp / 2; // element ko shota krrdiya
 
                 if (r == 0) {
                     set = "-\t" + set;
