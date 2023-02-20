@@ -59,7 +59,7 @@ public class _14_First_and_Last_Index {
             } else {
                 li = mid ;
                 l = mid + 1 ;
-            }
+            }  
         }
         System.out.println(li);
     }
