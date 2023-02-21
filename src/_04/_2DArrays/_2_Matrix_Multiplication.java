@@ -38,21 +38,23 @@ public class _2_Matrix_Multiplication {
         int c1 = s.nextInt();
 
         int[][] one = new int[r1][c1];
-        for (int i = 0; i < one.length; i++) {
-            for (int j = 0; j < one[0].length; j++) {
-                one[i][j] = s.nextInt();
+        for (int i = 0; i < one.length; i++) {   // rows
+            for (int j = 0; j < one[0].length; j++) { // cols
+                 one[i][j] = s.nextInt();
             }
         }
         int r2 = s.nextInt();
         int c2 = s.nextInt();
 
         int[][] two = new int[r2][c2];
-        for (int i = 0; i < two.length; i++) {
-            for (int j = 0; j < two[0].length; j++) {
+        for (int i = 0; i < two.length; i++) {        /// rows
+            for (int j = 0; j < two[0].length; j++) {      //// cols
                 two[i][j] = s.nextInt();
             }
         }
 
+        // 2 x 3     3 x 4  //
+        //r1 x c1  r2 x c2 //
         if (c1 != r2) {
             System.out.println("Invalid input");
             return;
@@ -60,8 +62,8 @@ public class _2_Matrix_Multiplication {
         int[][] pro = new int[r1][c2];
         for (int i = 0; i < pro.length; i++) {
             for (int j = 0; j < pro[0].length; j++) {
-                for (int k = 0; k < c1; k++) {
-                    pro[i][j] += one[i][k] * two[k][j];
+                for (int k = 0; k < c1; k++) {        //c1 == r2    for( int k =0 ; k < r2 ; k++) this is also valid
+                    pro[i][j] += one[i][k] * two[k][j];  // ith and the jth element is comman only kth element varryies
 
                 }
             }
