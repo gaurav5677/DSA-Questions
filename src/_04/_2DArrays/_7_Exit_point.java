@@ -51,4 +51,5 @@ public class _7_Exit_point {
         System.out.println(i);
         System.out.println(j);
     }
+
 }
