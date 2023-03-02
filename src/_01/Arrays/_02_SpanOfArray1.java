@@ -2,7 +2,7 @@ package _01.Arrays;
 
 import java.util.Scanner;
 
-public class _2_SpanOfArray1 {
+public class _02_SpanOfArray1 {
 //    public static void main(String[] args) {
 //        int[] arr = new int[6];
 //        arr[0] = 15;

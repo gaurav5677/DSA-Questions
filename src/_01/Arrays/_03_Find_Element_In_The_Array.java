@@ -2,7 +2,7 @@ package _01.Arrays;
 
 import java.util.Scanner;
 
-public class _3_Find_Element_In_The_Array {
+public class _03_Find_Element_In_The_Array {
 //    public static void main(String[] args) {
 //        Scanner  s = new Scanner(System.in);
 //        int n = s.nextInt();

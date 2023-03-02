@@ -30,7 +30,7 @@ package _04._2DArrays;
 
 import java.util.Scanner;
 
-public class _2_Matrix_Multiplication {
+public class _02_Matrix_Multiplication {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
 

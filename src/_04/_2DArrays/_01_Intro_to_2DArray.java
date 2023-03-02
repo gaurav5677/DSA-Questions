@@ -2,7 +2,7 @@ package _04._2DArrays;
 
 import java.util.Scanner;
 
-public class _1_Intro_to_2DArray {
+public class _01_Intro_to_2DArray {
     public static void main(String[] args) {
 
         Scanner s  = new Scanner(System.in);
