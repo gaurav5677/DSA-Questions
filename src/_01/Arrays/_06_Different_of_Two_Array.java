@@ -2,7 +2,7 @@ package _01.Arrays;
 
 import java.util.Scanner;
 
-public class _6_Different_of_Two_Array {
+public class _06_Different_of_Two_Array {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
 

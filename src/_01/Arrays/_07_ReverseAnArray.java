@@ -2,7 +2,7 @@ package _01.Arrays;
 import java.io.*;
 //import java.util.*;
 
-public class _7_ReverseAnArray {
+public class _07_ReverseAnArray {
 
 
 
