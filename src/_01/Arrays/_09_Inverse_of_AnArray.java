@@ -1,7 +1,7 @@
 package _01.Arrays;
 import java.io.*;
 //import java.util.*;
-public class _9_Inverse_of_AnArray {
+public class _09_Inverse_of_AnArray {
 
 
 

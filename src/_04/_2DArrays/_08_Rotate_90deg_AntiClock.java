@@ -2,7 +2,7 @@ package _04._2DArrays;
 
 import java.util.Scanner;
 
-public class _8_Rotate_90deg_AntiClock {
+public class _08_Rotate_90deg_AntiClock {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         int n = s.nextInt();

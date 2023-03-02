@@ -1,9 +1,8 @@
 package _01.Arrays;
 
 import java.io.*;
-import java.util.*;
 
-public class _8_Rotate_An_Array {
+public class _08_Rotate_An_Array {
 
 
     public static void display(int[] a) {
