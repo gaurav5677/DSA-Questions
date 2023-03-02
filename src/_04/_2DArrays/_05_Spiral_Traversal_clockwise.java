@@ -2,7 +2,7 @@ package _04._2DArrays;
 
 import java.util.Scanner;
 
-public class _5_Spiral_Traversal_clockwise {
+public class _05_Spiral_Traversal_clockwise {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         int n = s.nextInt();

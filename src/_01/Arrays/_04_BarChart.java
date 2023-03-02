@@ -2,7 +2,7 @@ package _01.Arrays;
 
 import java.util.Scanner;
 
-public class _4_BarChart {
+public class _04_BarChart {
     //    public static void main(String[] args) {
 //        Scanner s = new Scanner(System.in);
 //        int n = s.nextInt();

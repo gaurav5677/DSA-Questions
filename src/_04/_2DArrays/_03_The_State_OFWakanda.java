@@ -56,7 +56,7 @@ package _04._2DArrays;
 
 import java.util.*;
 
-public class _3_The_State_OFWakanda {
+public class _03_The_State_OFWakanda {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         int n = s.nextInt();   //rows

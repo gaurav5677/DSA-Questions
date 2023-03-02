@@ -2,7 +2,7 @@ package _01.Arrays;
 
 import java.util.Scanner;
 
-public class _5_Sum_Of_Two_Arrays {
+public class _05_Sum_Of_Two_Arrays {
     public static void main(String[] args) {
         Scanner  s =  new Scanner(System.in);
         int n = s.nextInt();
