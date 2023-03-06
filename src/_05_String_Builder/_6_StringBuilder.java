@@ -1,6 +1,6 @@
 package _05_String_Builder;
 
-public class _7_StringBuilder {
+public class _6_StringBuilder {
     public static void main(String[] args) {
 
         StringBuilder sb = new StringBuilder("Hello");
