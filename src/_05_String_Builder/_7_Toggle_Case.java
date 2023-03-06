@@ -25,5 +25,6 @@ public class _7_Toggle_Case {
             }
         }
         return sb.toString();
+
     }
 }
