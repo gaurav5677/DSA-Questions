@@ -22,7 +22,7 @@ public class _05_Last_Index {
     public static int lastIndex(int[] arr, int idx, int x) {
 
         if (idx == arr.length) {
-            return 1;
+            return -1;
         }
         int liisa = lastIndex(arr, idx + 1, x);
         if (liisa == -1) {
