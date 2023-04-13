@@ -16,6 +16,9 @@ public class _08_Rotate_An_Array {
 
     public static void rotate(int[] a, int k) {
         // write your code here
+
+
+       // always  perform the mod operation first and then the other operation
         k = k % a.length;
         if (k < 0) {
             k = k + a.length;

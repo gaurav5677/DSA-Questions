@@ -3,7 +3,8 @@ import java.util.*;
 //import java.io.*;
 
 public class _10_subArrays_of_anArray {
-
+//For example, the sub-arrays of the array {1, 2, 3} are {1}, {1, 2}, {1, 2, 3}, {2}, {2, 3}, and {3}.
+// We need to print these sub-arrays on different lines and also there should be a tab space in between the printed sub-array sequences,
 
     /////////////                abcd
     /////////////      a

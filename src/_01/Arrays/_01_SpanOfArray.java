@@ -1,6 +1,10 @@
 package _01.Arrays;
 
 public class _01_SpanOfArray {
+//First of all you will get a number n, which indicates the length of an array. Then you will get n more inputs corresponding to each index of the array.
+//
+//And you are required to find the span of the array, which is defined as the difference between max and min value of the array.
+
 
     public static void swap ( int [] arr , int i , int j ){
         int temp = arr[i];

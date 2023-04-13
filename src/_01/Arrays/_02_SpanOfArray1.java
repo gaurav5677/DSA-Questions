@@ -33,6 +33,9 @@ public class _02_SpanOfArray1 {
 
 
     ///////////////////////////////////// Optimised ////////////////////////
+//First of all you will get a number n, which indicates the length of an array. Then you will get n more inputs corresponding to each index of the array.
+//
+//And you are required to find the span of the array, which is defined as the difference between max and min value of the array.
 
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
@@ -43,6 +46,10 @@ public class _02_SpanOfArray1 {
             arr[i]=s.nextInt();
 
         }
+        // initially max and min are at 0th position of The Array
+
+        // we will chaeck each and every element of the Array to find the min and the max of the array
+        // and then we will find the span betweeen the two
         int max  =arr[0];
         int min = arr[0];
         for (int i = 0; i <arr.length ; i++) {

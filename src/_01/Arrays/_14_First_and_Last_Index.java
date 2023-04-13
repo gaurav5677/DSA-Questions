@@ -17,6 +17,12 @@ package _01.Arrays;
 import java.util.Scanner;
 
 public class _14_First_and_Last_Index {
+
+    //Find first & last occurrence of 33 in the given array:
+    //
+    //Array a = {1, 5, 10, 15, 22, 33, 33, 33, 33, 33, 40, 42, 55, 66, 77}.
+    //
+    //Hence, the answer will be 5 and 9 respectively (0-based indexing).
     public static void main(String[] args) {
 
         Scanner s = new Scanner(System.in);
@@ -29,39 +35,44 @@ public class _14_First_and_Last_Index {
 
         int data = s.nextInt();
 
-        int l = 0;
-        int h = arr.length - 1;
-       int f = -1 ;
-        while (l <= h) {
-            int mid = (l + h) / 2;
+
+        // first index
+        int low = 0;
+        int high  = arr.length - 1;
+       int first = -1 ;
+        while (low <= high) {
+            int mid = (low + high) / 2;
 
             if (data > arr[mid]) {
-                l = mid + 1;
+                low = mid + 1;
             } else if (data < arr[mid]) {
-                h = mid - 1;
+                high = mid - 1;
             } else {
-              f = mid ;
-              h = mid -1 ;
+              first = mid ;
+              // we didnt break the code here the below line chechs the further potentinal ans
+              high = mid -1 ;
             }
         }
-        System.out.println(f);
+        System.out.println(first);
 
-         l = 0;
-         h = arr.length - 1;
-        int li = -1 ;
-        while (l <= h) {
-            int mid = (l + h) / 2;
+
+        // last index
+         low = 0;
+         high = arr.length - 1;
+        int last = -1 ;
+        while (low <= high) {
+            int mid = (low + high) / 2;
 
             if (data > arr[mid]) {
-                l = mid + 1;
+                low = mid + 1;
             } else if (data < arr[mid]) {
-                h = mid - 1;
+                high = mid - 1;
             } else {
-                li = mid ;
-                l = mid + 1 ;
+                last = mid ;
+                low = mid + 1 ;
             }  
         }
-        System.out.println(li);
+        System.out.println(last);
     }
 
 }
