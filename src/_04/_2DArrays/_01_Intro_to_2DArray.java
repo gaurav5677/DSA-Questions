@@ -16,8 +16,8 @@ public class _01_Intro_to_2DArray {
             }
         }
 
-        /////////   identify the number of rows       arr.length
-        /////////    identity the number of cols       arr[0].length
+        /////////  to  identify the number of rows       arr.length
+        /////////   to  identity the number of cols       arr[0].length
         for(int i = 0 ; i <  arr.length;i++){
             for( int  j = 0 ; j < arr[i].length ; j++){
                 System.out.print(arr[i][j] + " ");

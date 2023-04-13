@@ -62,9 +62,9 @@ public class _02_Matrix_Multiplication {
         int[][] pro = new int[r1][c2];
         for (int i = 0; i < pro.length; i++) {
             for (int j = 0; j < pro[0].length; j++) {
-                for (int k = 0; k < c1; k++) {        //c1 == r2    for( int k =0 ; k < r2 ; k++) this is also valid
+                for (int k = 0; k < c1; k++) { // common dimention         //c1 == r2    for( int k =0 ; k < r2 ; k++) this is also valid
                     pro[i][j] += one[i][k] * two[k][j];  // ith and the jth element is comman only kth element varryies
-
+                   // C23 = A21  * B13 + A22 * B23  + A23 * B33
                 }
             }
         }
