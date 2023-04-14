@@ -57,13 +57,13 @@ public class _04_Spiral_Traversal_AntiClockWise {
 
         // Now we will print the matrix in box order
         // first we will print the left wall --> bottom wall --> right wall --> top wall
-        // which means we will print in anti clockwise direction
+        // which means we will print in anti-clockwise direction
 
-        // loop will run till condition is trur till
+        // loop will run till condition is true till
 
         while (count < tn) {
             //left wall
-            // in left wall the column is fix only row varries
+            // in left wall the column is fix only row varies
             for (int i = minr, j = minc; i <= maxr && count < tn; i++) { // count < tn is added here , cause not ever element will surrounded by walls, all the time ; this
                 // will print only the last remaining element
                 System.out.println(arr[i][j]);
@@ -71,37 +71,37 @@ public class _04_Spiral_Traversal_AntiClockWise {
                 count++;
 
             }
-            // Avoid printing  dupicate corner element by increasing minc
+            // Avoid printing  duplicate corner element by increasing minc
             minc++;
             //bottom wall
-            // in the bottom wall,  row is fixed only column varries
+            // in the bottom wall,  row is fixed only column varies
             for (int i = maxr, j = minc; j <= maxc && count < tn; j++) {// count < tn is added here , cause not ever element will surrounded by walls, all the time ; this
                 // will print only the last remaining element
                 System.out.println(arr[i][j]);
 
                 count++;
             }
-            // Avoid printing  dupicate corner element by decreasing maxr
+            // Avoid printing  duplicate corner element by decreasing maxr
             maxr--;
             // Right wall
-            // in Right wall , Column is fix rows varries
+            // in Right wall , Column is fix rows varies
             for (int i = maxr, j = maxc; i >= minr && count < tn; i--) {// count < tn is added here , cause not ever element will surrounded by walls, all the time ; this
                 // will print only the last remaining element
                 System.out.println(arr[i][j]);
 
                 count++;
             }
-            // Avoid printing  dupicate corner element by Decreasing maxC
+            // Avoid printing  duplicate corner element by Decreasing maxC
             maxc--;
             // Top wall
-            // Row is fix column varries
+            // Row is fix column varies
             for (int i = minr, j = maxc; j >= minc && count < tn; j--) {// count < tn is added here , cause not ever element will surrounded by walls, all the time ; this
                 // will print only the last remaining element
                 System.out.println(arr[i][j]);
 
                 count++;
             }
-            // Avoid printing  dupicate corner element by increasing minr
+            // Avoid printing  duplicate corner element by increasing minr
             minr++;
         }
     }
