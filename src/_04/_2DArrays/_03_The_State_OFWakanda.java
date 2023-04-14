@@ -69,7 +69,7 @@ public class _03_The_State_OFWakanda {
                 arr[i][j] = s.nextInt();
             }
         }
-
+         // column is  increasing that's we  loop in column ;
         for (int j = 0; j < arr[0].length; j++) {
             if (j % 2 == 0) { // if the column is even then column will print   downward
                 for (int i = 0; i < arr.length; i++) {
