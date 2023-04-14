@@ -82,6 +82,7 @@ public class _04_Spiral_Traversal_AntiClockWise {
                 count++;
             }
             // Avoid printing  duplicate corner element by decreasing maxr
+
             maxr--;
             // Right wall
             // in Right wall , Column is fix rows varies
