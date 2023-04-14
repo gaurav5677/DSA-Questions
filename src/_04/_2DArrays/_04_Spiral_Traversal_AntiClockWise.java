@@ -64,7 +64,7 @@ public class _04_Spiral_Traversal_AntiClockWise {
         while (count < tn) {
             //left wall
             // in left wall the column is fix only row varies
-            for (int i = minr, j = minc; i <= maxr && count < tn; i++) { // count < tn is added here , cause not ever element will surrounded by walls, all the time ; this
+            for (int i = minr, j = minc; i <= maxr && count < tn; i++) { // count < tn is added here , cause not every element will surround by walls, all the time ; this
                 // will print only the last remaining element
                 System.out.println(arr[i][j]);
 
@@ -75,7 +75,7 @@ public class _04_Spiral_Traversal_AntiClockWise {
             minc++;
             //bottom wall
             // in the bottom wall,  row is fixed only column varies
-            for (int i = maxr, j = minc; j <= maxc && count < tn; j++) {// count < tn is added here , cause not ever element will surrounded by walls, all the time ; this
+            for (int i = maxr, j = minc; j <= maxc && count < tn; j++) {// count < tn is added here , cause not every element will surround by walls, all the time ; this
                 // will print only the last remaining element
                 System.out.println(arr[i][j]);
 
@@ -86,7 +86,7 @@ public class _04_Spiral_Traversal_AntiClockWise {
             maxr--;
             // Right wall
             // in Right wall , Column is fix rows varies
-            for (int i = maxr, j = maxc; i >= minr && count < tn; i--) {// count < tn is added here , cause not ever element will surrounded by walls, all the time ; this
+            for (int i = maxr, j = maxc; i >= minr && count < tn; i--) {// count < tn is added here , cause not every element will surround by walls, all the time ; this
                 // will print only the last remaining element
                 System.out.println(arr[i][j]);
 
@@ -96,7 +96,7 @@ public class _04_Spiral_Traversal_AntiClockWise {
             maxc--;
             // Top wall
             // Row is fix column varies
-            for (int i = minr, j = maxc; j >= minc && count < tn; j--) {// count < tn is added here , cause not ever element will surrounded by walls, all the time ; this
+            for (int i = minr, j = maxc; j >= minc && count < tn; j--) {// count < tn is added here , cause not every element will surround by walls, all the time ; this
                 // will print only the last remaining element
                 System.out.println(arr[i][j]);
 
