@@ -3,6 +3,9 @@ package _04._2DArrays;
 import java.util.Scanner;
 
 public class _10_Shell_Rotate {
+
+    //You are given a n*m matrix where n are the number of rows and m are the number of columns. You are also given n*m numbers representing the elements of the matrix.
+    //You will be given a ring number 's' representing the ring of the matrix    .
     public static void main(String[] args) {
         //INPut
 
@@ -16,8 +19,8 @@ public class _10_Shell_Rotate {
               }
         }
 
-        int sh = s.nextInt();   // shell
-        int r = s.nextInt();// rotate
+        int sh = s.nextInt();   // which  shell do the user want to rotate
+        int r = s.nextInt();//  how much rotation does he want
         rotateShell(arr, sh, r);
         display(arr);
 
@@ -37,6 +40,7 @@ public class _10_Shell_Rotate {
         int minc = s - 1;
         int maxr = arr.length - s;
         int maxc = arr[0].length - s;
+//        int sz = (maxxr - minr + 1 )
         int sz = 2 * (maxr - minr + maxc - minc);
 
         int[] oned = new int[sz];
