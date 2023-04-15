@@ -3,6 +3,9 @@ package _04._2DArrays;
 import java.util.Scanner;
 
 public class _07_Exit_point {
+    //The problem states that we have a matrix or a 2-D array that has only 1's and 0's as the values inside it. If we
+    // encounter a 0 in the matrix we have to keep moving in the direction that we were moving, otherwise, when we encounter
+    // 1, we will take a 900 right turn
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         int n = s.nextInt();
