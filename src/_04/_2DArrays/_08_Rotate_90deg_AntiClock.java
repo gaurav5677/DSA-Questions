@@ -16,7 +16,7 @@ public class _08_Rotate_90deg_AntiClock {
 
         //Transpose
 
-        /// this will wont work buc swaping happeans 2times on every eleement , resulting origial matrix
+        /// this  won't work buz  swapping happens 2times on every element , resulting original matrix
 //        for( int i  = 0 ; i < arr.length ; i++){
 //            for( int j = 0 ;  j <arr[0].length ; j++){
 //                int temp = arr[i][j];
@@ -26,7 +26,7 @@ public class _08_Rotate_90deg_AntiClock {
 //        }
         //Transpose
       for( int i = 0 ; i < arr.length; i++){
-          for( int j = i ; j < arr[0].length ; j++){ //loop will run in  upper trangle
+          for( int j = i ; j < arr[0].length ; j++){ //loop will run  0nly in  upper triangle
               int temp =arr[i][j];
               arr[i][j]=arr[j][i];
               arr[j][i] = temp;
