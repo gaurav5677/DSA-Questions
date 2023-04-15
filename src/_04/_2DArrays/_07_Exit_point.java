@@ -30,7 +30,7 @@ public class _07_Exit_point {
             } else if (dir == 3) {
                 i--;  //Move up the column (north direction)
             }
-
+            /// the below code will check the break point and return the exit point  of i or j
             if (i < 0) {
                 i++;  //exit point is one row head (in 0th row)
                 break;
